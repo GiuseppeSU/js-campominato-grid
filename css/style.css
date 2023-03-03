@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+}
+
+main {
+    padding-top: 50px;
+}
+
+#griglia{
+    padding-top: 50px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: solid 2px lime;
+}
+
+.square.clicked {
+    background-color: purple;
+}
