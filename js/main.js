@@ -1,5 +1,6 @@
 let grigliaDom = document.getElementById('griglia');
 let button = document.getElementById('btn');
+let reset = document.getElementById('reset');
 button.addEventListener('click' , function(){
     for (let i = 1; i < 101; i++) {
         const quadrato = creazioneQuadrato();
@@ -11,6 +12,10 @@ button.addEventListener('click' , function(){
         
         grigliaDom.append(quadrato);
     }
+})
+
+reset.addEventListener('click' , function (){
+    grigliaDom.innerHTML = '';
 })
 
 

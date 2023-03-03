@@ -6,11 +6,13 @@
 
 
 body {
-    background-color: white;
+    background-color: black;
+
 }
 
 main {
     padding-top: 50px;
+    
 }
 
 .container{
@@ -41,6 +43,9 @@ main {
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: solid 2px lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -48,6 +53,11 @@ main {
     background-color: lightblue;
 }
 
-.show{
-    display: block;
+#reset{
+    margin: 0px 10px;
+    padding: 10px ;
+    background-color: purple;
+    border: 5px solid yellow;
+    color: red;
+
 }
