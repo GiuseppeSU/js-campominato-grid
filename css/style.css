@@ -13,6 +13,20 @@ main {
     padding-top: 50px;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#btn{
+    padding: 10px;
+    background-color: chocolate;
+    border: 5px solid limegreen;
+    color: cyan;
+}
+
 #griglia{
     padding-top: 50px;
     width: 600px;
@@ -20,14 +34,20 @@ main {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .square{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: solid 2px lime;
+    
 }
 
 .square.clicked {
-    background-color: purple;
+    background-color: lightblue;
+}
+
+.show{
+    display: block;
 }
