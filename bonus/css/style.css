@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+
+}
+
+main {
+    padding-top: 50px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#btn{
+    padding: 10px;
+    background-color: chocolate;
+    border: 5px solid limegreen;
+    color: cyan;
+}
+
+#griglia{
+    padding-top: 50px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: solid 2px lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.square.clicked {
+    background-color: lightblue;
+}
+
+#reset{
+    margin: 0px 10px;
+    padding: 10px ;
+    background-color: purple;
+    border: 5px solid yellow;
+    color: red;
+}
+
+#livello{
+    margin-right: 30px ;
+    padding: 10px ;
+    background-color: brown;
+    border: 5px solid aqua;
+    color: burlywood;
+
+}
